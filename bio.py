@@ -1,6 +1,30 @@
+
+   
+"""
+The function of the bio module
+is to explain, in the most understandable way possible,
+who was the bassist with his/her relative
+band in which he/she played, when he/she lived, if he/she had a stage name,
+the genre they played, his/her nationality, if he/she played as a solist or not,
+and the period in which he/she was most famous.
+The function first checks if the input
+the user inserted is present in
+the database, if not the system will warn the user
+and invite him/her to check if it is correctly written.
+The user can also read and see the full biography with
+the Wikipedia's link.
+"""
+
 import pandas as pd
 
 def return_bio(bassist):
+    """
+    This function comes into play once the user inputs a value
+    and wants to obtain as output the complete list of information that
+    can be found inside the database, or when, after
+    the input, the user writes the optional argument -bio.
+    It recognizes the input if it is a name of a bassist.
+    """
     db = pd.DataFrame(pd.read_csv('bassistsfinal.csv'))
     bassists = list(db["Name"])
 
