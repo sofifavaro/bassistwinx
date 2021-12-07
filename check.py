@@ -1,7 +1,7 @@
 import pandas as pd
 class Check:
     def check_bassist(self, bassist):
-       """
+        """
         This function controls if the input given
         by the user (i.e. bassist's name') is present
         in the database under the bassist column.
@@ -21,7 +21,7 @@ class Check:
         return False
 
     def check_band(self, band):
-         """
+        """
         This function controls if the input given
         by the user (i.e. a band) is present
         in the band column inside the csv file.
