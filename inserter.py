@@ -3,6 +3,15 @@ import pandas as pd
 from check import Check
 from csv import writer
 
+    """
+    This function comes into play once the user inputs a value
+    that is not inside the database, or when, after
+    the input, the user writes the optional argument -a.
+    It asks if the input is a name of a bassist or a band,
+    then it asks for the remaining values to insert in all the 9 columns
+    of the database.
+    """
+    
 
 def add_element(a_or_b, response=""):
     
