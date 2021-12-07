@@ -18,3 +18,19 @@ from similarities import similarities
 from bio import return_bio
 import argparse
 import pandas as pd
+
+db = pd.DataFrame(pd.read_csv('bassistsfinal.csv'))
+parser = argparse.ArgumentParser(description='This program will' +
+                                             ' check if the name you put is' +
+                                             ' inside our database of ' +
+                                             'bassists and the ' +
+                                             'band in which they play.' +
+                                             ' If the names have ' +
+                                             'more than one space, ' +
+                                             'wrap them ' +
+                                             'around quotes ("").')
+group = parser.add_mutually_exclusive_group()
+group.add_argument("-bio", "--biography", action="store_true",
+                   help="entire biography of the bassist")
+args = parser.parse_args()
+answer = args.name
