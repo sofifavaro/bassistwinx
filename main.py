@@ -42,5 +42,7 @@ group.add_argument("-b", "--bands", action="store_true",
                    help="show the list of bands")
 group.add_argument("-bas", "--bassist", action="store_true",
                    help="show the list of bassists")
+group.add_argument("-s", "--similarities", action="store_true",
+                   help="show similar bassists by nat/gen/per")
 args = parser.parse_args()
 answer = args.name
