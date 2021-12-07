@@ -1,111 +1,79 @@
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "def similarities(column, parameter):\n",
-    "    \"\"\"\n",
-    "    This function returns similarities between the\n",
-    "    bassist given as an input and\n",
-    "    the other bassists stored in our database.\n",
-    "    The code is structured in order to\n",
-    "    individuate similarities according to columns\n",
-    "    \"Nationality\", \"Genre\" and \"period\".\n",
-    "    The user should select the column she/he\n",
-    "    is interested in.\n",
-    "    If the user is looking for similarities according\n",
-    "    to the period,\n",
-    "    she/he is asked to specify if she/he is interested\n",
-    "    in a period after, before or equal period.\n",
-    "    \"\"\"\n",
-    "    db = pd.DataFrame(pd.read_csv('bassistsfinal.csv'))\n",
-    "\n",
-    "    column = str(column)\n",
-    "\n",
-    "    if type(parameter) == int:\n",
-    "        valore = str(input(\"Do you want to search for period \" +\n",
-    "                           \"that was after (>), before (<) or \" +\n",
-    "                           \"the same (==) period you provided as input?\"))\n",
-    "\n",
-    "        if valore == \">\":\n",
-    "            result = db.loc[db[column] > parameter][[\"Name\", column]]\n",
-    "            if len(result) > 1:\n",
-    "                print(\"The bassists that were famous after \" +\n",
-    "                      \"than {}s are the following: {}\".format(\n",
-    "                       parameter, result))\n",
-    "            else:\n",
-    "                print(\"Sorry, there are no bassists that were famous \" +\n",
-    "                      \"after {}s .\".format(parameter))\n",
-    "\n",
-    "        elif valore == \"<\":\n",
-    "            result = db.loc[db[column] < parameter][[\"Name\", column]]\n",
-    "            if len(result) > 1:\n",
-    "                print(\"The artists that were famous before \" +\n",
-    "                      \"than {}s are the following:{}\".format(\n",
-    "                       parameter, result))\n",
-    "            else:\n",
-    "                print(\"Sorry, there are no bassists that were famous \" +\n",
-    "                      \"before {}s artworks. \".format(parameter))\n",
-    "        elif valore == \"==\":\n",
-    "            result = db.loc[db[column] == parameter][[\"Name\", column]]\n",
-    "            if len(result) > 1:\n",
-    "                print(\"The bassists that were famous in the same period \" +\n",
-    "                      \"{}s are the following: {}\".format(\n",
-    "                       parameter, result))\n",
-    "            elif len(result) == 1:\n",
-    "                print(\"The bassists that was famous in the same period \" +\n",
-    "                      \"{}s is the following: {}\".format(\n",
-    "                       parameter, result))\n",
-    "            else:\n",
-    "                print(\"Sorry, there are no bassists that were famous\" +\n",
-    "                      \"in this period {} \".format(parameter))\n",
-    "        else:\n",
-    "            print(\"You have to enter <, > or ==.\")\n",
-    "\n",
-    "    else:\n",
-    "        parameter = str(parameter)\n",
-    "        result = db.loc[db[column] == parameter][[\"Name\"]]\n",
-    "        if column == (\"Nationality\"):\n",
-    "            if len(result) > 1:\n",
-    "                print(\"{} bassists are the following:{}\".format(\n",
-    "                       parameter, result))\n",
-    "            else:\n",
-    "                print(\"Sorry, there are not {} bassists \".format(parameter))\n",
-    "        else:\n",
-    "            if len(result) > 1:\n",
-    "                print(\"Bassists belonging to \"\n",
-    "                      \"{} genre are the following: {}\".format(\n",
-    "                       parameter, result))\n",
-    "            else:\n",
-    "                print(\"Sorry, there are not bassists \" +\n",
-    "                      \"belonging to {} genre \".format(parameter))\n",
-    "    \n",
-    "\n"
-   ]
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.7.4"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 2
-}
+import pandas as pd
+
+def similarities(column, parameter):
+    """
+    This function returns similarities between the
+    bassist given as an input and
+    the other bassists stored in our database.
+    The code is structured in order to
+    individuate similarities according to columns
+    "Nationality", "Genre" and "period".
+    The user should select the column she/he
+    is interested in.
+    If the user is looking for similarities according
+    to the period,
+    she/he is asked to specify if she/he is interested
+    in a period after, before or equal period.
+    """
+    db = pd.DataFrame(pd.read_csv('bassistsfinal.csv'))
+
+    column = str(column)
+
+    if type(parameter) == int:
+        valore = str(input("Do you want to search for period " +
+                           "that was after (>), before (<) or " +
+                           "the same (==) period you provided as input?"))
+
+        if valore == ">":
+            result = db.loc[db[column] > parameter][["Name", column]]
+            if len(result) > 1:
+                print("The bassists that were famous after " +
+                      "than {}s are the following: {}".format(
+                       parameter, result))
+            else:
+                print("Sorry, there are no bassists that were famous " +
+                      "after {}s .".format(parameter))
+
+        elif valore == "<":
+            result = db.loc[db[column] < parameter][["Name", column]]
+            if len(result) > 1:
+                print("The artists that were famous before " +
+                      "than {}s are the following:{}".format(
+                       parameter, result))
+            else:
+                print("Sorry, there are no bassists that were famous " +
+                      "before {}s artworks. ".format(parameter))
+        elif valore == "==":
+            result = db.loc[db[column] == parameter][["Name", column]]
+            if len(result) > 1:
+                print("The bassists that were famous in the same period " +
+                      "{}s are the following: {}".format(
+                       parameter, result))
+            elif len(result) == 1:
+                print("The bassists that was famous in the same period " +
+                      "{}s is the following: {}".format(
+                       parameter, result))
+            else:
+                print("Sorry, there are no bassists that were famous" +
+                      "in this period {} ".format(parameter))
+        else:
+            print("You have to enter <, > or ==.")
+
+    else:
+        parameter = str(parameter)
+        result = db.loc[db[column] == parameter][["Name"]]
+        if column == ("Nationality"):
+            if len(result) > 1:
+                print("{} bassists are the following:{}".format(
+                       parameter, result))
+            else:
+                print("Sorry, there are not {} bassists ".format(parameter))
+        else:
+            if len(result) > 1:
+                print("Bassists belonging to "
+                      "{} genre are the following: {}".format(
+                       parameter, result))
+            else:
+                print("Sorry, there are not bassists " +
+                      "belonging to {} genre ".format(parameter))
+    
