@@ -30,6 +30,12 @@ parser = argparse.ArgumentParser(description='This program will' +
                                              'wrap them ' +
                                              'around quotes ("").')
 group = parser.add_mutually_exclusive_group()
+parser.add_argument("name",
+                    help="input the name of a known bassist or band")
+group.add_argument("-a", "--add", action="store_true",
+                   help="add a new bassist or band")
+group.add_argument("-d", "--database", action="store_true",
+                   help="show bassist and relative band")
 group.add_argument("-bio", "--biography", action="store_true",
                    help="entire biography of the bassist")
 args = parser.parse_args()
