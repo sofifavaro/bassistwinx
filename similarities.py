@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 def similarities(column, parameter):
     """
     This function returns similarities between the
@@ -76,4 +77,3 @@ def similarities(column, parameter):
             else:
                 print("Sorry, there are not bassists " +
                       "belonging to {} genre ".format(parameter))
-    
