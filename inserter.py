@@ -1,7 +1,30 @@
+   
+"""
+The function of the inserter module
+allows to append new bassists with relative
+bands into our database.
+The function first checks if the input
+the user wants to insert is already present in
+the database, if not it asks if the inserted
+value is the name of a bassist
+or the name of a band.
+After that it requires to add all the
+other additional information, to generate
+a list of 9 items.
+Finally the list is inserted in a new
+row becoming part
+of our database.
+"""
+
+
+
 import csv
 import pandas as pd
 from check import Check
 from csv import writer
+    
+
+def add_element(a_or_b, response=""):
 
     """
     This function comes into play once the user inputs a value
@@ -11,9 +34,6 @@ from csv import writer
     then it asks for the remaining values to insert in all the 9 columns
     of the database.
     """
-    
-
-def add_element(a_or_b, response=""):
     
     db = pd.DataFrame(pd.read_csv('bassistsfinal.csv'))
 
