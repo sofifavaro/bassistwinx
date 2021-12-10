@@ -57,3 +57,16 @@ elif args.bassist:
     print("Now you can see by yourself if the bassist " +
           "is present in our database!")
     print(db["Name"])
+
+if args.similarities:
+    response2 = input("Do you want to see the similarities according " +
+                      "to nationality, genre or period of " +
+                      "activities? (nat, gen, per) -> ")
+    if response2 == "nat":
+        similarities("Nationality", db.loc[
+            db['Name'] == answer, 'Nationality'].iloc[0])
+    elif response2 == "gen":
+        similarities("Genre", db.loc[db['Name'] == answer, 'Genre'].iloc[0])
+    else:
+        similarities("Period", int(db.loc[
+            db['Name'] == answer, 'Period'].iloc[0]))
