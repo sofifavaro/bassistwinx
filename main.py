@@ -46,3 +46,14 @@ group.add_argument("-s", "--similarities", action="store_true",
                    help="show similar bassists by nat/gen/per")
 args = parser.parse_args()
 answer = args.name
+
+check = Check()
+
+if args.band:
+    print("Now you can see by yourself if the band " +
+          "is present in our database!")
+    print(db["Band"])
+elif args.bassist:
+    print("Now you can see by yourself if the bassist " +
+          "is present in our database!")
+    print(db["Name"])
