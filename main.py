@@ -70,6 +70,44 @@ if args.similarities:
     else:
         similarities("Period", int(db.loc[
             db['Name'] == answer, 'Period'].iloc[0]))
-
+elif args.database:
+    print("Now you can see by yourself if the bassist and his/her " +
+          "band are present in our database!")
+    print(db["Name"] + " : " + db["Band"])
+    
 elif args.biography:
     return_bio(answer)
+
+elif args.database:
+    print("Now you can see by yourself if the bassist and his/her " +
+          "band are present in our database!")
+    print(db["Name"] + " : " + db["Band"])
+else:
+    if args.add:
+        add_element(answer)
+    elif check.check_band(answer):
+        print("The bassist of", db["Band"]
+              .loc[db["Band"].str.lower() == answer.lower()].values[0],
+              "is", db["Name"].loc[db["Band"].str.lower() ==
+              answer.lower()].values[0])
+    elif check.check_bassist(answer):
+        print(db["Name"].loc[db["Name"].str.lower() == answer.lower()]
+              .values[0], "is the bassist of",
+              db["Band"].loc[db["Name"].str.lower() ==
+              answer.lower()].values[0])
+    else:
+        response = input(answer + " is not present in our database. Are you " +
+                         "sure that you wrote it correctly " +
+                         "(use -d to check if it is " +
+                         "already in our database)?(y or n) -> ")
+        if response == "y":
+            response1 = input(
+                "Great! Do you want to add he/her/it? (y or n) -> ")
+            if response1 == "y":
+                add_element(answer)
+            else:
+                print("Thank you anyway")
+        else:
+            print("Use -d to check if it is already in our database, " +
+                  "maybe there is a spelling error in the input. " +
+                  "Then try again, thank you for your patiance!")
