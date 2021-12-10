@@ -1,35 +1,35 @@
 Name,Band,Genre,Nationality,Life,Stage Name,Solist,Period,Wikipedia
-Flea,Red Hot Chili Peppers,Punk,Australia,1962-now,Yes,No,90,https://en.wikipedia.org/wiki/Flea_(musician)
-Geddy Lee,Rush,Rock,Canada,1953-now,No,No,80,https://en.wikipedia.org/wiki/Geddy_Lee
-Les Claypool,Primus,Rock,USA,1963-now,No,No,80,https://en.wikipedia.org/wiki/Les_Claypool
-John Paul Jones,Led Zeppelin,Hard Rock,uk,1946-now,No,No,70,https://en.wikipedia.org/wiki/John_Paul_Jones_(musician)
-John Deacon,Queen,Rock,UK,1951-now,No,No,80,https://en.wikipedia.org/wiki/John_Deacon
-Roger Waters,Pink Floyd,Rock,UK,1943-now,No,No,70,https://en.wikipedia.org/wiki/Roger_Waters
-Tony Levin,King Crimson,Rock,USA,1946-now,No,No,80,https://en.wikipedia.org/wiki/Tony_Levin
-Leland Sklar,Phil Collins,Rock,USA,1947-now,No,Yes,70,https://en.wikipedia.org/wiki/Leland_Sklar
-John Myung,Dream Theater,Metal,USA,1967-now,No,No,80,https://en.wikipedia.org/wiki/John_Myung
-John Entwistle,The Who,Rock,UK,1944-2002,No,No,80,https://en.wikipedia.org/wiki/John_Entwistle
-Cliff Burton,Metallica,Metal,USA,1962-1986,No,No,80,https://en.wikipedia.org/wiki/Cliff_Burton
-Chris Squire,Yes,Rock,UK,1948-2015,No,No,70,https://en.wikipedia.org/wiki/Chris_Squire
-Faso,Elio e le Storie Tese,Pop-Rock,Italy,1965-now,Yes,No,90,https://it.wikipedia.org/wiki/Faso
-Thundercat,Suicidal Tendencies,Punk,USA,1984-now,Yes,Yes,2000,https://en.wikipedia.org/wiki/Thundercat_(musician)
-Duff McKagan,Guns n' Roses,Punk,USA,1964-now,No,Yes,90,https://en.wikipedia.org/wiki/Duff_McKagan
-Kim Deal,Pixies,Rock,USA,1961-now,No,No,2000,https://en.wikipedia.org/wiki/Kim_Deal
-Peter Hook,Joy division,Punk,UK,1956-now,No,No,80,https://en.wikipedia.org/wiki/Peter_Hook
-Esperanza Spalding,She was not part of a band,Bosa nova,USA,1984-now,No,Yes,2000,https://en.wikipedia.org/wiki/Esperanza_Spalding
-Joseph Makwela,Makgona Tshole Band,Mbaqanga,South Africa,1940-1998,No,No,60,https://en.wikipedia.org/wiki/Makgona_Tsohle_Band
-Mike Watt,Minuteman,Funk,USA,1957-now,No,Yes,90,https://en.wikipedia.org/wiki/Mike_Watt
-George Porter,Meters,R&B,USA,1947-now,No,Yes,80,https://en.wikipedia.org/wiki/George_Porter_Jr.
-Bill Black,Blue Moon Boys,Rock,USA,1926-1965,No,Yes,60,https://en.wikipedia.org/wiki/Bill_Black
-Kim Gordon,Sonic youth,Rock,USA,1953-now,No,No,90,https://en.wikipedia.org/wiki/Kim_Gordon
-Saturnino,Jovanotti,Pop,Italy,1969-now,Yes,Yes,2000,https://it.wikipedia.org/wiki/Saturnino_(musicista)
-Pino Palladio,Who,R&B,UK,1957-now,No,Yes,90,https://en.wikipedia.org/wiki/Pino_Palladino
-John McVie,Fleetwood Mac,Rock,UK,1945-now,No,No,60,https://en.wikipedia.org/wiki/John_McVie
-Luis Johnson,Quincy Jones,Pop,USA,1955-2015,No,Yes,80,https://en.wikipedia.org/wiki/Louis_Johnson_(bassist)
-Lemmy kilmister,Motšrhead,Rock,UK,1945-2015,No,Yes,70,https://en.wikipedia.org/wiki/Lemmy
-Bernard Edwards,Chic,Disco music,,1953-1996,No,Yes,70,https://en.wikipedia.org/wiki/Bernard_Edwards
-David Hood,He was not part of a band,R&B,USA,1943-now,No,Yes,60,https://en.wikipedia.org/wiki/David_Hood
-Bill Wyman,He was not part of a band,Pop,UK,1936-now,No,Yes,70,https://en.wikipedia.org/wiki/Bill_Wyman
-Stanlay Clarke,Return to forever,Rock,USA,1951-now,No,Yes,70,https://en.wikipedia.org/wiki/Stanley_Clarke
-Paul McCartney,Beatles,Pop,UK,1942-now,No,No,70,https://en.wikipedia.org/wiki/Paul_McCartney
-Victoria De Angelis,Maneskin,Rock,Italy,2000-now,no,No,2018,https://en.wikipedia.org/wiki/M%C3%A5neskin#Band_members
+Flea,Red Hot Chili Peppers,Punk,Australian,1962-now,Has,No,90,https://en.wikipedia.org/wiki/Flea_(musician)
+Geddy Lee,Rush,Rock,Canadian,1953-now,Has not,No,80,https://en.wikipedia.org/wiki/Geddy_Lee
+Les Claypool,Primus,Rock,American,1963-now,Has not,No,80,https://en.wikipedia.org/wiki/Les_Claypool
+John Paul Jones,Led Zeppelin,Hard Rock,British,1946-now,Has not,No,70,https://en.wikipedia.org/wiki/John_Paul_Jones_(musician)
+John Deacon,Queen,Rock,British,1951-now,Has not,No,80,https://en.wikipedia.org/wiki/John_Deacon
+Roger Waters,Pink Floyd,Rock,British,1943-now,Has not,No,70,https://en.wikipedia.org/wiki/Roger_Waters
+Tony Levin,King Crimson,Rock,American,1946-now,Has not,No,80,https://en.wikipedia.org/wiki/Tony_Levin
+Leland Sklar,Phil Collins,Rock,American,1947-now,Has not,Yes,70,https://en.wikipedia.org/wiki/Leland_Sklar
+John Myung,Dream Theater,Metal,American,1967-now,Has not,No,80,https://en.wikipedia.org/wiki/John_Myung
+John Entwistle,The Who,Rock,British,1944-2002,Has not,No,80,https://en.wikipedia.org/wiki/John_Entwistle
+Cliff Burton,Metallica,Metal,American,1962-1986,Has not,No,80,https://en.wikipedia.org/wiki/Cliff_Burton
+Chris Squire,Yes,Rock,British,1948-2015,Has not,No,70,https://en.wikipedia.org/wiki/Chris_Squire
+Faso,Elio e le Storie Tese,Pop-Rock,Italian,1965-now,Has,No,90,https://it.wikipedia.org/wiki/Faso
+Thundercat,Suicidal Tendencies,Punk,American,1984-now,Has,Yes,2000,https://en.wikipedia.org/wiki/Thundercat_(musician)
+Duff McKagan,Guns n' Roses,Punk,American,1964-now,Has not,Yes,90,https://en.wikipedia.org/wiki/Duff_McKagan
+Kim Deal,Pixies,Rock,American,1961-now,Has not,No,2000,https://en.wikipedia.org/wiki/Kim_Deal
+Peter Hook,Joy division,Punk,British,1956-now,Has not,No,80,https://en.wikipedia.org/wiki/Peter_Hook
+Esperanza Spalding,She was not part of a band,Bosa nova,American,1984-now,Has not,Yes,2000,https://en.wikipedia.org/wiki/Esperanza_Spalding
+Joseph Makwela,Makgona Tshole Band,Mbaqanga,South African,1940-1998,Has not,No,60,https://en.wikipedia.org/wiki/Makgona_Tsohle_Band
+Mike Watt,Minuteman,Funk,American,1957-now,Has not,Yes,90,https://en.wikipedia.org/wiki/Mike_Watt
+George Porter,Meters,R&B,American,1947-now,Has not,Yes,80,https://en.wikipedia.org/wiki/George_Porter_Jr.
+Bill Black,Blue Moon Boys,Rock,American,1926-1965,Has not,Yes,60,https://en.wikipedia.org/wiki/Bill_Black
+Kim Gordon,Sonic youth,Rock,American,1953-now,Has not,No,90,https://en.wikipedia.org/wiki/Kim_Gordon
+Saturnino,Jovanotti,Pop,Italian,1969-now,Has,Yes,2000,https://it.wikipedia.org/wiki/Saturnino_(musicista)
+Pino Palladio,Who,R&B,British,1957-now,Has not,Yes,90,https://en.wikipedia.org/wiki/Pino_Palladino
+John McVie,Fleetwood Mac,Rock,British,1945-now,Has not,No,60,https://en.wikipedia.org/wiki/John_McVie
+Luis Johnson,Quincy Jones,Pop,American,1955-2015,Has not,Yes,80,https://en.wikipedia.org/wiki/Louis_Johnson_(bassist)
+Lemmy kilmister,Motšrhead,Rock,British,1945-2015,Has not,Yes,70,https://en.wikipedia.org/wiki/Lemmy
+Bernard Edwards,Chic,Disco music,American,1953-1996,Has not,Yes,70,https://en.wikipedia.org/wiki/Bernard_Edwards
+David Hood,He was not part of a band,R&B,American,1943-now,Has not,Yes,60,https://en.wikipedia.org/wiki/David_Hood
+Bill Wyman,He was not part of a band,Pop,British,1936-now,Has not,Yes,70,https://en.wikipedia.org/wiki/Bill_Wyman
+Stanlay Clarke,Return to forever,Rock,American,1951-now,Has not,Yes,70,https://en.wikipedia.org/wiki/Stanley_Clarke
+Paul McCartney,Beatles,Pop,British,1942-now,Has not,No,70,https://en.wikipedia.org/wiki/Paul_McCartney
+Victoria De Angelis,Maneskin,Rock,Italian,2000-now,Has not,No,2018,https://en.wikipedia.org/wiki/M%C3%A5neskin#Band_members
