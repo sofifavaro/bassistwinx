@@ -49,7 +49,7 @@ answer = args.name
 
 check = Check()
 
-if args.band:
+if args.bands:
     print("Now you can see by yourself if the band " +
           "is present in our database!")
     print(db["Band"])
