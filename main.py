@@ -70,3 +70,6 @@ if args.similarities:
     else:
         similarities("Period", int(db.loc[
             db['Name'] == answer, 'Period'].iloc[0]))
+
+elif args.biography:
+    return_bio(answer)
