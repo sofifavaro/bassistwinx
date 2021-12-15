@@ -42,7 +42,7 @@ def return_bio(bassist):
                             0], " and he/she was most famous in the", db[
                                 "Period"].loc[db["Name"].str.lower(
                                     ) == bassist.lower()].values[
-                                        0], "s. He/She belongs to"+
+                                        0], "s. He/She belongs to" +
                                         "the genre of", db[
                                             "Genre"].loc[
                                                 db["Name"].str.lower() ==
