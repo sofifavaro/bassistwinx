@@ -1,4 +1,4 @@
-   
+
 """
 The function of the inserter module
 allows to append new bassists with relative
@@ -17,12 +17,11 @@ of our database.
 """
 
 
-
 import csv
 import pandas as pd
 from check import Check
 from csv import writer
-    
+
 
 def add_element(a_or_b, response=""):
 
@@ -34,7 +33,7 @@ def add_element(a_or_b, response=""):
     then it asks for the remaining values to insert in all the 9 columns
     of the database.
     """
-    
+
     db = pd.DataFrame(pd.read_csv('bassistsfinal.csv'))
 
     if Check().check_bassist(a_or_b):
@@ -48,7 +47,7 @@ def add_element(a_or_b, response=""):
                              .values[0]))
     else:
         name1 = input(
-        "Is he/she a bassist or is it the name of a band (a or b) -> ")
+            "Is he/she a bassist or is it the name of a band (a or b) -> ")
 
         if name1 == "a":
             if response == "":
@@ -56,7 +55,7 @@ def add_element(a_or_b, response=""):
                     "Now enter the full name of the bassist -> ")
                 while(name2 == ""):
                     name2 = input("You can't enter nothing... " +
-                                      "so please... put anything -> ")
+                                  "so please... put anything -> ")
             band = input(
                 "Now enter the name of the band of the bassist->")
             while(band == ""):
@@ -78,17 +77,20 @@ def add_element(a_or_b, response=""):
                 life = input(
                     "You can't enter nothing..." + "please put anything ->")
             stagename = input(
-                "Now enter 'has' or 'has not' depending on whether the bassist had a stage name or not ->")
+                "Now enter 'has' or 'has not' depending on whether the bassist" +
+                "had a stage name or not ->")
             while(stagename == ""):
                 stagename = input(
                     "You can't enter nothing..." + "please put anything ->")
             solist = input(
-                "Now enter 'only' or 'never' or 'sometimes' depending on whether the bassist was only, sometimes or never a solist->")
+                "Now enter 'only' or 'never' or 'sometimes' depending on" +
+                "whether the bassist was only, sometimes or never a solist->")
             while(solist == ""):
                 solist = input(
                     "You can't enter nothing..." + "please put anything ->")
             period = input(
-                "Now enter the time period during which the bassist was most famous or successful->")
+                "Now enter the time period during which the bassist" +
+                "was most famous or successful->")
             while(period == ""):
                 period = input(
                     "You can't enter nothing..." + "please put anything ->")
@@ -103,7 +105,7 @@ def add_element(a_or_b, response=""):
                 row = len(db)
                 write_obj.write("\n")
                 writer.writerow([row, name2, genre, a_or_b, nationality,
-                                         solist, genre, nationality, stagename, wiki])
+                                 solist, genre, nationality, stagename, wiki])
                 write_obj.close()
             return print("Thank you for your contribution!")
 
@@ -134,17 +136,20 @@ def add_element(a_or_b, response=""):
                 life = input(
                     "You can't enter nothing..." + "please put anything ->")
             stagename = input(
-                "Now enter 'has' or 'has not' depending on whether the bassist had a stage name or not ->")
+                "Now enter 'has' or 'has not' depending on whether the" +
+                "bassist had a stage name or not ->")
             while(stagename == ""):
                 stagename = input(
                     "You can't enter nothing..." + "please put anything ->")
             solist = input(
-               "Now enter 'only' or 'never' or 'sometimes' depending on whether the bassist was only, sometimes, never a solist->")
+               "Now enter 'only' or 'never' or 'sometimes' depending on" +
+               "whether the bassist was only, sometimes, never a solist->")
             while(solist == ""):
                 solist = input(
                     "You can't enter nothing..." + "please put anything ->")
             period = input(
-                "Now enter the time period during which the bassist was most famous or successful->")
+                "Now enter the time period during which the bassist was" +
+                "most famous or successful->")
             while(period == ""):
                 period = input(
                     "You can't enter nothing..." + "please put anything ->")
