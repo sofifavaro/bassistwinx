@@ -27,12 +27,10 @@ class TestName(unittest.TestCase):
         self.parameter = "Italian"
 
 
-
     def test_wrong_check_bassist(self):
         self.assertFalse(Check().check_bassist(self.F_bassist))
         self.assertFalse(Check().check_bassist(self.T_band))
         self.assertFalse(Check().check_bassist(self.F_band))
-
 
 
     def test_wrong_check_band(self):
@@ -42,10 +40,10 @@ class TestName(unittest.TestCase):
     def test_inserter(self):
         test1 = print("Sorry, but " + self.T_bassist +
                       " is already present in the database, thank you anyway")
-  
+
         test2 = print("Sorry, but " + self.F_band +
                       " is not present in the database, thank you anyway")
-       # self.assertEqual(test2, ins.add_element(self.F_band))
+
         test3 = print("Thank you for your contribution!")
 
     def test_correct_similarities(self):
