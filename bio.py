@@ -47,8 +47,8 @@ def return_bio(bassist):
                                             "Genre"].loc[
                                                 db["Name"].str.lower() ==
             bassist.lower()].values[0], "He/She", db[
-                "Solist"].loc[db["Name"].str.lower() ==
-                bassist.lower()].values[
+                "Solist"].loc[db["Name"].str.lower() == bassist.lower(
+                    )].values[
                     0], "played as a soloist, and He/She", db[
                     "Stage Name"].loc[
                         db["Name"].str.lower() == bassist.lower(
