@@ -13,7 +13,7 @@ the association between bassists and bands.
 """
 
 from inserter import add_element
-from check import Check 
+from check import Check
 from similarities import similarities
 from bio import return_bio
 import argparse
@@ -74,7 +74,7 @@ elif args.database:
     print("Now you can see by yourself if the bassist and his/her " +
           "band are present in our database!")
     print(db["Name"] + " : " + db["Band"])
-    
+
 elif args.biography:
     return_bio(answer)
 
