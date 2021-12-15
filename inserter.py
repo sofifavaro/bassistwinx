@@ -77,8 +77,8 @@ def add_element(a_or_b, response=""):
                 life = input(
                     "You can't enter nothing..." + "please put anything ->")
             stagename = input(
-                "Now enter 'has' or 'has not' depending on whether the bassist" +
-                "had a stage name or not ->")
+                "Now enter 'has' or 'has not' depending on whether the" +
+                "bassist had a stage name or not ->")
             while(stagename == ""):
                 stagename = input(
                     "You can't enter nothing..." + "please put anything ->")
