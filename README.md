@@ -92,40 +92,40 @@ After being called, the argument `-d` allows to get the database relation betwee
 The output that we optain is the following:
 
     Now you can see by yourself if the bassist and his/her band are present in our database!
-0                        Flea : Red Hot Chili Peppers
-1                                    Geddy Lee : Rush
-2                               Les Claypool : Primus
-3                      John Paul Jones : Led Zeppelin
-4                                 John Deacon : Queen
-5                           Roger Waters : Pink Floyd
-6                           Tony Levin : King Crimson
-7                         Leland Sklar : Phil Collins
-8                          John Myung : Dream Theater
-9                            John Entwistle : The Who
-10                           Cliff Burton : Metallica
-11                                 Chris Squire : Yes
-12                       Faso : Elio e le Storie Tese
-13                   Thundercat : Suicidal Tendencies
-14                       Duff McKagan : Guns n' Roses
-15                                  Kim Deal : Pixies
-16                          Peter Hook : Joy division
-17    Esperanza Spalding : She was not part of a band
-18               Joseph Makwela : Makgona Tshole Band
-19                              Mike Watt : Minuteman
-20                             George Porter : Meters
-21                        Bill Black : Blue Moon Boys
-22                           Kim Gordon : Sonic youth
-23                              Saturnino : Jovanotti
-24                                Pino Palladio : Who
-25                         John McVie : Fleetwood Mac
-26                        Luis Johnson : Quincy Jones
-27                        Lemmy kilmister : Motšrhead
-28                             Bernard Edwards : Chic
-29             David Hood : He was not part of a band
-30             Bill Wyman : He was not part of a band
-31                 Stanlay Clarke : Return to forever
-32                           Paul McCartney : Beatles
-33                     Victoria De Angelis : Maneskin
+    0                        Flea : Red Hot Chili Peppers
+    1                                    Geddy Lee : Rush
+    2                               Les Claypool : Primus
+    3                      John Paul Jones : Led Zeppelin
+    4                                 John Deacon : Queen
+    5                           Roger Waters : Pink Floyd
+    6                           Tony Levin : King Crimson
+    7                         Leland Sklar : Phil Collins
+    8                          John Myung : Dream Theater
+    9                            John Entwistle : The Who
+    10                           Cliff Burton : Metallica
+    11                                 Chris Squire : Yes
+    12                       Faso : Elio e le Storie Tese
+    13                   Thundercat : Suicidal Tendencies
+    14                       Duff McKagan : Guns n' Roses
+    15                                  Kim Deal : Pixies
+    16                          Peter Hook : Joy division
+    17    Esperanza Spalding : She was not part of a band
+    18               Joseph Makwela : Makgona Tshole Band
+    19                              Mike Watt : Minuteman
+    20                             George Porter : Meters
+    21                        Bill Black : Blue Moon Boys
+    22                           Kim Gordon : Sonic youth
+    23                              Saturnino : Jovanotti
+    24                                Pino Palladio : Who
+    25                         John McVie : Fleetwood Mac
+    26                        Luis Johnson : Quincy Jones
+    27                        Lemmy kilmister : Motšrhead
+    28                             Bernard Edwards : Chic
+    29             David Hood : He was not part of a band
+    30             Bill Wyman : He was not part of a band
+    31                 Stanlay Clarke : Return to forever
+    32                           Paul McCartney : Beatles
+    33                     Victoria De Angelis : Maneskin
     
 It's possible to see  bassist and band separatly with the following commands:
 
