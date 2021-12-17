@@ -35,12 +35,10 @@ class TestName(unittest.TestCase):
         self.column = "Nationality"
         self.parameter = "Italian"
 
-
     def test_wrong_check_bassist(self):
         self.assertFalse(Check().check_bassist(self.F_bassist))
         self.assertFalse(Check().check_bassist(self.T_band))
         self.assertFalse(Check().check_bassist(self.F_band))
-
 
     def test_wrong_check_band(self):
         self.assertFalse(Check().check_band(self.T_bassist))
