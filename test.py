@@ -1,3 +1,13 @@
+"""
+This module is aimed to tests some of the functions
+necessary to let the user interact with the database.
+Each Test Case tests a valid and invalid entries,
+to see what the program do.
+TearDown and SetUp functions were used as well
+to set up mock variables and the csv file needed
+to test the functions.
+"""
+
 import unittest
 from check import Check
 import inserter as ins
