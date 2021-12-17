@@ -14,7 +14,6 @@ class TestName(unittest.TestCase):
         ind = db.loc[db["Name"] == "Alessandro Federigo"].index.values
         db.drop(db.index[ind[:]], inplace=True)
         db.to_csv("bassistsfinal.csv", index=False)
-        print(db)
 
     def setUp(self):
         self.T_bassist = "Flea"
